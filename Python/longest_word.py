@@ -21,6 +21,7 @@ def longest_word(str):
         #Longest word will be at index 'ind'
         long_word = word_list[j]
         print(long_word)
+        break;
 
 
-longest_word("Android is almost over!")
+longest_word("Android is almosts over!")
