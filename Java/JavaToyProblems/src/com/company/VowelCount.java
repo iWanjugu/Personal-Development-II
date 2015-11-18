@@ -35,6 +35,7 @@ public class VowelCount {
     }
 
     public static void main (String[]args){
-            System.out.println (vowel_num);
+
+        System.out.println (vowel_num);
         }
-        }
+}
