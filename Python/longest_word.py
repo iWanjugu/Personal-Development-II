@@ -25,3 +25,36 @@ def longest_word(str):
 
 
 longest_word("Android is almosts over!")
+
+
+#-------------------------------------------------------------------------------
+# #other solutions
+# #more working code
+# def longest_word(sentence):
+#     #use list comprension
+#     #return sorted(sentence.split(" "),key=len,reverse=True)[0]
+#     #return max(sentence.split(" "),key=len)
+# print(longest_word("Hello there bro how was you lovely day"))
+#
+#
+#
+# # check if this works which is a shorter version of
+# stringlist = (['halla', 'hello', 'yahoo', 'hello'])
+# print max(stringlist, key=len)
+#
+#
+#
+# # tversion of this one
+# def longest_word(lists):
+#     length = 0
+#     longest = ''
+#     for item in lists:
+#         x = len(item)
+#     if x > length:
+#         length = x
+#         longest = item
+#     elif x == length:
+#         if item not in list:
+#             longest = longest + ' ' + item
+#     return longest
+# print longest_word(['halla', 'hello', 'yahoo', 'hello'])
