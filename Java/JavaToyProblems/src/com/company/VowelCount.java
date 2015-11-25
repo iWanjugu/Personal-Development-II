@@ -21,21 +21,17 @@ package com.company;
 // vowelMap.get('e'); // 3
 // vowelMap.get('u'); // 3
 
-import com.sun.deploy.util.StringUtils;
-import java.util.HashMap;
-
 public class VowelCount {
 
-    public static int vowelCount (){
+    public static void vowelCount (){
 
         String word = "boy";
         int vowel_num;
-        vowel_num = StringUtils.countOccurrencesOf(word, "o");
-        return vowel_num;
+
     }
 
     public static void main (String[]args){
 
-        System.out.println (vowel_num);
+
         }
 }

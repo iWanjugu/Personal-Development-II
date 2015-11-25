@@ -9,8 +9,6 @@
 
 package com.company;
 
-import java.util.*;
-
 /**
  * Created by iWanjugu on 16/11/2015.
  */
@@ -21,6 +19,5 @@ public class CombineStrings {
 
     String [] words;
 
-    System.out.print(str1[1]);
 
 }
